@@ -3,5 +3,5 @@ spring:
     config:
       server:
         git:
-          uri: ${HOME}/Workspace/RND/spring-cloud-config-example
-#          uri: https://github.com/KNIGHTMASTER/spring-cloud-config-example
+#          uri: ${HOME}/Workspace/RND/spring-cloud-config-example
+          uri: https://github.com/KNIGHTMASTER/spring-cloud-config-example
