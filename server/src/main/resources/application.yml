@@ -3,4 +3,9 @@ spring:
         name: server
 
 server:
-    port: 8080
+    port: 8082
+
+
+management:
+    security:
+        enabled: false
