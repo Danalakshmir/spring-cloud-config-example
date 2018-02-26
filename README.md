@@ -6,11 +6,14 @@ Example Spring Application Integrated With Spring Cloud Config to Centralize Con
 Configuration variables will be put inside config directory.
 We can reload configuration from server (at runtime) without restarting client application. Because there is reload configuration on annotation `@RefreshScope`
 
-###Client
+### Client
 Client running on port 8081
 
-###Server
+### Server
 Server running on port 8082
 
-###Configuration
+### Configuration
 URL [http://localhost:8082/master/development](http://localhost:8082/master/development) will show configurations that is committed to github repository
+
+### Reload Configuration
+curl -X POST 'http://localhost:8082/refresh' without any body
