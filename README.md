@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/KNIGHTMASTER/spring-cloud-config-example.svg)] https://travis-ci.org/KNIGHTMASTER/spring-cloud-config-example
+[![Build Status](https://travis-ci.org/KNIGHTMASTER/spring-cloud-config-example.svg)](https://travis-ci.org/KNIGHTMASTER/spring-cloud-config-example)
 
 # spring-cloud-config-example
 Example Spring Application Integrated With Spring Cloud Config to Centralize Configuration
