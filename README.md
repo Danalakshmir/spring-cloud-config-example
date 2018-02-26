@@ -16,4 +16,4 @@ Server running on port 8082
 URL [http://localhost:8082/master/development](http://localhost:8082/master/development) will show configurations that is committed to github repository
 
 ### Reload Configuration
-curl -X POST 'http://localhost:8082/refresh' without any body
+curl -X POST 'http://localhost:8081/refresh' without any body
